@@ -1,0 +1,28 @@
+THINKPAD 1 (INTEL CELERON U3400 DUAL CORE, 2GB RAM)
+v1 Base implementation:
+real 0m40.978s
+user 0m8.061s
+sys 0m2.541s
+Note: Memory usage overwhelmed the laptop and caused it to freeze until the program finished.
+
+MY PC (LINUX MINT, AMD ATHLON X4 635 QUAD CORE, 6GB RAM)
+v1 Base implementation:
+real 0m5.559s
+user 0m4.762s
+sys 0m0.769s
+
+v2 Adding parallelisation:
+real 0m4.119s
+user 0m6.473s
+sys 0m0.803s
+
+v3 Improving efficiency:
+real    0m2.529s
+user    0m7.546s
+sys     0m0.870s
+
+UNI SERVER (SIXTEEN INTEL XEON E5620 QUAD CORES)
+v3 Improving efficiency:
+real    0m1.691s
+user    0m3.701s
+sys     0m0.833s
